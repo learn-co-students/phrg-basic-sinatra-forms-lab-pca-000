@@ -7,7 +7,7 @@ gem 'sinatra'
 gem 'rack-protection', '~> 2.0', '>= 2.0.1'
 gem 'rake'
 gem 'thin'
-gem 'shotgun'
+gem 'shotgun', git: 'https://github.com/delonnewman/shotgun.git'
 gem 'pry'
 gem 'require_all'
 
