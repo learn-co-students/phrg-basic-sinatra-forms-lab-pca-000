@@ -9,7 +9,7 @@ Capybara.javascript_driver = :poltergeist
 RSpec.configure do |config|
   config.include Capybara::DSL
   config.include Rack::Test::Methods
-  config.order = 'default'
+  # config.order = 'default'
 end
 
 def app
